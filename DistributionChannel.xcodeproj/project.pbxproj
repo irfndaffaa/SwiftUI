@@ -13,6 +13,7 @@
 		0FEFE2592509ECEE0066827C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FEFE2582509ECEE0066827C /* Assets.xcassets */; };
 		0FEFE25C2509ECEE0066827C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FEFE25B2509ECEE0066827C /* Preview Assets.xcassets */; };
 		0FEFE25F2509ECEE0066827C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEFE25D2509ECEE0066827C /* LaunchScreen.storyboard */; };
+		0FEFE2672509ED1F0066827C /* AuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEFE2662509ED1F0066827C /* AuthUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0FEFE25B2509ECEE0066827C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0FEFE25E2509ECEE0066827C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FEFE2602509ECEE0066827C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FEFE2662509ED1F0066827C /* AuthUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +39,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F512210250BEEA300D96D0D /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
 		0FEFE2462509ECE90066827C = {
 			isa = PBXGroup;
 			children = (
+				0F512210250BEEA300D96D0D /* WebService */,
 				0FEFE2512509ECE90066827C /* DistributionChannel */,
 				0FEFE2502509ECE90066827C /* Products */,
 			);
@@ -63,6 +73,7 @@
 				0FEFE25D2509ECEE0066827C /* LaunchScreen.storyboard */,
 				0FEFE2602509ECEE0066827C /* Info.plist */,
 				0FEFE25A2509ECEE0066827C /* Preview Content */,
+				0FEFE2662509ED1F0066827C /* AuthUser.swift */,
 			);
 			path = DistributionChannel;
 			sourceTree = "<group>";
@@ -148,6 +159,7 @@
 			files = (
 				0FEFE2532509ECE90066827C /* AppDelegate.swift in Sources */,
 				0FEFE2552509ECE90066827C /* SceneDelegate.swift in Sources */,
+				0FEFE2672509ED1F0066827C /* AuthUser.swift in Sources */,
 				0FEFE2572509ECE90066827C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
